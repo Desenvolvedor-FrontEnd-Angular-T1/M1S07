@@ -1,0 +1,42 @@
+/* Seleção via tag */
+h1 {
+  color: red;
+}
+
+/* Seleção via Classe */
+.titulo {
+  color: blue;
+}
+.sobre {
+  background-color: aquamarine;
+}
+
+/* Seleção via ID */
+#experiencias {
+  background-color: beige;
+}
+
+/* Seleção de elemento irmão subsequente */
+h1 + div {
+  color: blue;
+}
+
+/* Seleção de qualquer elemento irmão */
+h1 ~ div {
+  color: blue;
+}
+
+/* Seleção de elemento filho subsequente */
+p > span {
+  color: yellow;
+}
+
+/* Seleção de qualquer elemento filho */
+p span {
+  color: rebeccapurple;
+}
+
+/* Utilização de !important para modificar a ordem de prioridade do CSS */
+h1 {
+  color: blueviolet !important;
+}
